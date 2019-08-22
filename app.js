@@ -1,5 +1,7 @@
 const express = require("express");
 const pug = require("pug");
+const routes = require("./routes/index.js");
+const project = require("./routes/project.js");
 
 const app = express();
 
@@ -10,19 +12,17 @@ app.use("/static", express.static("public"));
 app.set("views", __dirname + "/views");
 app.set("view engine", "pug");
 
-// CONFIG ROUTES
-app.get("/", function(req, res) {
-  res.render("index");
-});
-
-app.get("/about", function(req, res) {
-  res.render("about");
-});
-
-app.get("/project", function(req, res) {
-  res.render("project");
-});
+app.use("/", routes);
+app.use("/project", project);
 
 app.listen(3000, function() {
   console.log("Starting server on localhost:3000");
 });
+
+// TODOS
+
+// -- Error Handling (404 / 500)
+// -- Finish Git Hub images
+//   -- Resize new images (1000 x 700)
+// -- Improve Git hub repos readme, lol they suck
+// -- get pictures of me :)
