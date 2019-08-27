@@ -18,9 +18,10 @@ block content
           each technology in displayProject.technologies
            li.tech= technology
 
-        a.button.expanded(href='') Live Demo
+        a.button.expanded(href=displayProject.live_link, target="_blank") Live Demo
         a.button.expanded(href=displayProject.github_link, target="_blank") GitHub Repo
     
     each url, index in displayProject.image_urls
       if index !== 0
         img.image(src=url)
+        p This is a description of the image.

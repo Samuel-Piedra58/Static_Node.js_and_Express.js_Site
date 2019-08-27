@@ -7,6 +7,7 @@ const app = express();
 
 // CONFIG STATIC SERVER //////////////////////////////
 app.use("/static", express.static("public"));
+app.use("/images", express.static("images"));
 
 // CONFIG TEMPLATING ENGINE //////////////////////////////
 app.set("views", __dirname + "/views");
@@ -41,8 +42,6 @@ app.listen(3000, function() {
 
 // TODOS
 
-// -- Error Handling (404 / 500)
-// -- Finish Git Hub images
-//   -- Resize new images (1000 x 700)
+// -- Change "projects" route to redirect to home page if user enters and incorrect id
 // -- Improve Git hub repos readme, lol they suck
 // -- get pictures of me :)

@@ -10,6 +10,9 @@ router.get("/", function(req, res) {
 });
 
 router.get("/:id", function(req, res) {
+  // ADD ADDITIONAL CHECK FOR VALID ":id" PARAMETER
+  // --- if its undefined?
+  // --- does an item in the array equal that parameter?
   const { id } = req.params;
   const displayProject = projects[id];
   res.render("project", { displayProject });
