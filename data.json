@@ -8,26 +8,26 @@
       "live_link": "https://samuel-piedra58.github.io/random_quote_generator/",
       "github_link": "https://github.com/Samuel-Piedra58/random_quote_generator",
       "image_urls": [
-        "../images/random_quote_generator/start_page.PNG",
-        "../images/random_quote_generator/start_page.PNG",
-        "../images/random_quote_generator/quote_1.png",
-        "../images/random_quote_generator/quote_2.png",
-        "../images/random_quote_generator/quote_3.png"
+        "/static/images/random_quote_generator/start_page_rs.PNG",
+        "/static/images/random_quote_generator/start_page.PNG",
+        "/static/images/random_quote_generator/quote_1.png",
+        "/static/images/random_quote_generator/quote_2.png",
+        "/static/images/random_quote_generator/quote_3.png"
       ]
     },
     {
       "id": 1,
-      "project_name": "List Pagination and Filtering",
+      "project_name": "List Pagination",
       "description": "A list pagination (10 items per page) feature with additional functionality to filter returned users by name.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://samuel-piedra58.github.io/list_pagination_and_filtering/",
       "github_link": "https://github.com/Samuel-Piedra58/list_pagination_and_filtering",
       "image_urls": [
-        "../images/list_pagination_and_filtering/start_page.png",
-        "../images/list_pagination_and_filtering/start_page.png",
-        "../images/list_pagination_and_filtering/pagination_example.png",
-        "../images/list_pagination_and_filtering/filter_example.png",
-        "../images/list_pagination_and_filtering/no_results_example.png"
+        "/static/images/list_pagination_and_filtering/start_page_rs.png",
+        "/static//images/list_pagination_and_filtering/start_page.png",
+        "/static/images/list_pagination_and_filtering/pagination_example.png",
+        "/static/images/list_pagination_and_filtering/filter_example.png",
+        "/static/images/list_pagination_and_filtering/no_results_example.png"
       ]
     },
     {
@@ -44,31 +44,31 @@
       "live_link": "https://samuel-piedra58.github.io/form_validation/",
       "github_link": "https://github.com/Samuel-Piedra58/form_validation",
       "image_urls": [
-        "../images/form_validation/start_page.png",
-        "../images/form_validation/start_page.png",
-        "../images/form_validation/form_second_part.png",
-        "../images/form_validation/form_name_email_invalid_example.png",
-        "../images/form_validation/form_validation_activity_total.png"
+        "/static/images/form_validation/start_page_rs.png",
+        "/static/images/form_validation/start_page.png",
+        "/static/images/form_validation/form_second_part.png",
+        "/static/images/form_validation/form_name_email_invalid_example.png",
+        "/static/images/form_validation/form_validation_activity_total.png"
       ]
     },
     {
       "id": 3,
-      "project_name": "Phrase Hunter Game OOP",
+      "project_name": "Phrase Hunter Game",
       "description": "A fun interactive phrase guessing game!",
       "technologies": ["HTML", "CSS", "JavaScript", "JS OOP"],
       "live_link": "https://samuel-piedra58.github.io/phrase_hunter_game_oop/",
       "github_link": "https://github.com/Samuel-Piedra58/phrase_hunter_game_oop",
       "image_urls": [
-        "../images/phrase_hunter/start_page.png",
-        "../images/phrase_hunter/start_page.png",
-        "../images/phrase_hunter/game_board.png",
-        "../images/phrase_hunter/game_play.png",
-        "../images/phrase_hunter/game_won.png"
+        "/static/images/phrase_hunter/start_page_rs.png",
+        "/static/images/phrase_hunter/start_page.png",
+        "/static/images/phrase_hunter/game_board.png",
+        "/static/images/phrase_hunter/game_play.png",
+        "/static/images/phrase_hunter/game_won.png"
       ]
     },
     {
       "id": 4,
-      "project_name": "Public APIs - Startup Company",
+      "project_name": "Startup Company Employee Directory",
       "description": "A mock employee directory for a fake company. This page uses AJAX and Promises to generate employees who work at said \"Startup Company\"",
       "technologies": [
         "HTML",
@@ -83,11 +83,11 @@
       "live_link": "https://samuel-piedra58.github.io/public_apis_startup_company/",
       "github_link": "https://github.com/Samuel-Piedra58/public_apis_startup_company",
       "image_urls": [
-        "../images/public_apis_startup_company/start_page.png",
-        "../images/public_apis_startup_company/start_page.png",
-        "../images/public_apis_startup_company/single_modal_card.png",
-        "../images/public_apis_startup_company/search_feature.png",
-        "../images/public_apis_startup_company/modal_card_closeup.png"
+        "/static/images/public_apis_startup_company/start_page_rs.png",
+        "/static/images/public_apis_startup_company/start_page.png",
+        "/static/images/public_apis_startup_company/single_modal_card.png",
+        "/static/images/public_apis_startup_company/search_feature.png",
+        "/static/images/public_apis_startup_company/modal_card_closeup.png"
       ]
     }
   ]
