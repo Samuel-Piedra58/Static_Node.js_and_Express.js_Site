@@ -2,7 +2,7 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') ← Home
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
@@ -20,29 +20,32 @@ block content
             | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills
-
+        hr
         //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
         ul
-          li JavaScript
-          li Node.js (and npm)
-          li Express.js
-          li jQuery
-          li HTML
-          li CSS
-          li git
-          li SQL 
-          li VBA, VB Script
+          li.tech.skills JavaScript
+          li.tech.skills Node.js
+          li.tech.skills Express.js
+          li.tech.skills jQuery
+          li.tech.skills npm
+          li.tech.skills HTML
+          li.tech.skills CSS
+          li.tech.skills git
+          li.tech.skills SQL 
+        hr
         h6 Contact Info
-
+        hr
         //- Add your own contact info
         ul
-          //- li 575-921-3667
-          li samuel58piedra@gmail.com
-
+          li.contact Phone: (575)-921-3667
+          li.contact Email: samuel58piedra@gmail.com
+        hr
+        h6 Connect
+        hr
         //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded#linkedin(href='https://www.linkedin.com/in/samuel-piedra-162508135/', target="_blank") LinkedIn
-        a.button.expanded#github(href='https://github.com/Samuel-Piedra58/', target="_blank") GitHub
+        a.button.expanded.linkedin(href='https://www.linkedin.com/in/samuel-piedra-162508135/', target="_blank") LinkedIn
+        a.button.expanded.github(href='https://github.com/Samuel-Piedra58/', target="_blank") GitHub
         //- a.button.expanded(href='') Twitter
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') ← Home
   

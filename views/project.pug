@@ -2,7 +2,7 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') ← Home
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
@@ -13,15 +13,14 @@ block content
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
-
+        hr
         ul
           each technology in displayProject.technologies
            li.tech= technology
 
-        a.button.expanded(href=displayProject.live_link, target="_blank") Live Demo
-        a.button.expanded(href=displayProject.github_link, target="_blank") GitHub Repo
-    
+        a.button.expanded.github(href=displayProject.live_link, target="_blank") Live Demo
+        a.button.expanded.github(href=displayProject.github_link, target="_blank") GitHub Repo
+    hr
     each url, index in displayProject.image_urls
       if index !== 0
         img.image(src=url)
-        p This is a description of the image.

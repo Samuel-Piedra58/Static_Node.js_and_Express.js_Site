@@ -2,7 +2,7 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') ← Home
   article.grid-container.portfolio-intro
     div
       h1= `${err.statusCode}: ${err.message}`
@@ -10,5 +10,5 @@ block content
         if err.statusCode == 404
             | Oops! It looks like the page you are looking for does not exist!
         else
-            | Oops! It looks like my skill as a baby developer is really showing! 
-
+            | Oops! It looks like a bug is crawling around back there! 
+    p.lead.text-light= err.stack
