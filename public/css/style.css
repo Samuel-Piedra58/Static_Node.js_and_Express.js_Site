@@ -4,7 +4,7 @@ h3,
 h4,
 h5,
 p {
-  font-family: "Merriweather", serif;
+  font-family: "Montserrat", serif;
 }
 
 h5 {
@@ -53,6 +53,8 @@ a:hover {
 .image {
   display: inline-block;
   max-width: 100%;
+  /* Added by developer */
+  margin-top: 1rem;
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
@@ -155,26 +157,34 @@ a:hover {
 
 /* about page CSS alterations */
 
-#linkedin {
+a.random-project {
+  color: black;
+}
+
+a.random-project:hover {
+  color: dodgerblue;
+}
+
+.linkedin {
   color: #0077b5;
   background-color: white;
   border: 2px #0077b5 solid;
   font-weight: 700;
 }
 
-#linkedin:hover {
+.inkedin:hover {
   color: white;
   background-color: #0077b5;
 }
 
-#github {
+.github {
   color: #24292e;
   background-color: white;
   border: 2px #24292e solid;
   font-weight: 700;
 }
 
-#github:hover {
+.github:hover {
   color: white;
   background-color: #24292e;
 }
@@ -191,4 +201,52 @@ a:hover {
   font-weight: 600;
   border: 2px solid black;
   display: inline-block;
+}
+
+.tech.skills {
+  width: 100%;
+  display: block;
+  margin-left: -18px;
+  background-color: rgb(0, 255, 221);
+}
+
+.cell.auto {
+  font-family: "Montserrat", serif;
+}
+
+.portfolio-me p {
+  font-size: 14px;
+  color: white;
+}
+
+.portfolio-me a {
+  color: white;
+}
+
+.portfolio-me {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #7e7e7e,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact {
+  list-style: none;
+  background-color: rgb(214, 210, 209);
+  width: 100%;
+  padding: 2px 4px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-left: -18px;
+  color: black;
+  font-weight: 600;
+  border: 2px solid black;
+  display: block;
 }
