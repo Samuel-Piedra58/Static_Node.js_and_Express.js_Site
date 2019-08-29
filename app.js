@@ -7,7 +7,6 @@ const app = express();
 
 // CONFIG STATIC SERVER //////////////////////////////
 app.use("/static", express.static("public"));
-app.use("/images", express.static("images"));
 
 // CONFIG TEMPLATING ENGINE //////////////////////////////
 app.set("views", __dirname + "/views");
@@ -16,6 +15,7 @@ app.set("view engine", "pug");
 // CONFIG ROUES //////////////////////////////
 app.use("/", routes);
 app.use("/projects", project);
+app.use("/project", project);
 
 // FORCE 404 ERROR //////////////////////////////
 app.use(function(req, res, next) {
@@ -26,12 +26,23 @@ app.use(function(req, res, next) {
 
 // ERROR HANDLER MIDDLEWARE //////////////////////////////
 app.use(function(err, req, res, next) {
-  console.error(`${err.statusCode}: ${err.message}`);
-  console.error(`Request URL: ${req.headers.host + req.originalUrl}`);
+  // log error header to the console
+  console.log("****************  ERROR  ****************");
+
+  // Check if statusCode was set in 404 or if it can be set to 500
   if (err.statusCode === undefined) {
     err.statusCode = 500;
+  }
+
+  // log error message to console
+  console.error(`${err.statusCode}: ${err.message}`);
+  console.error(err.stack);
+
+  if (err.statusCode !== 404) {
     err.message = "Internal Server Error";
   }
+
+  // render error page with statuscode
   res.status(err.statusCode).render("error", { err });
 });
 
@@ -42,6 +53,8 @@ app.listen(3000, function() {
 
 // TODOS
 
-// -- Change "projects" route to redirect to home page if user enters and incorrect id
 // -- Improve Git hub repos readme, lol they suck
-// -- get pictures of me :)
+// -- edit about me page
+// -- edit side bar intro
+// -- create feature to add style and interactivity when a user hover's over the project tile
+// -- improve project descriptions
