@@ -3,8 +3,8 @@
     {
       "id": 0,
       "project_name": "Random Quote Generator",
-      "description": "Display a random quote on click!",
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "description": "The random quote generator displays a random quote on the click of a button or when 20 seconds have passed. This project was built on basics of JavaScript and utilized Web API's such as setTimout() and the DOM.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Web API's"],
       "live_link": "https://samuel-piedra58.github.io/random_quote_generator/",
       "github_link": "https://github.com/Samuel-Piedra58/random_quote_generator",
       "image_urls": [
@@ -17,9 +17,9 @@
     },
     {
       "id": 1,
-      "project_name": "List Pagination",
-      "description": "A list pagination (10 items per page) feature with additional functionality to filter returned users by name.",
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "project_name": "List Pagination and Filtering",
+      "description": "List pagination is the application of breaking out data (like a list of people, posts, or product items) across pages for the user to toggle between instead of scrolling. List pagination provides the user the ability to view data in increments of 10 or 20 items per page, instead of having them scroll endlessly. This project also offers a filtering feature allowing the user to search for a specific list item by name. Building pagination and filterting helped test and solidify my knowledge regarding basic JavaScript syntax, Web API's, and friendly user features.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Web API's"],
       "live_link": "https://samuel-piedra58.github.io/list_pagination_and_filtering/",
       "github_link": "https://github.com/Samuel-Piedra58/list_pagination_and_filtering",
       "image_urls": [
@@ -33,11 +33,12 @@
     {
       "id": 2,
       "project_name": "Form Validation",
-      "description": "Project utilized regular expressions and rules to validate user input and provide meaningful feeback for invalid input to the user.",
+      "description": "Form validation is the practice of verifying and responding to a user's input in real-time or on or after the submission of the input. Good form validation can help a user submit accurate and appropriate data. Good form validation can also assist an organization in efficiently handling user data, preventing malicous user intent, and progress a user through their site or application in a friendly, trustworthy, and seamless manner.",
       "technologies": [
         "HTML",
         "CSS",
         "JavaScript",
+        "Web API's",
         "jQuery",
         "Regular Expressions"
       ],
@@ -54,8 +55,14 @@
     {
       "id": 3,
       "project_name": "Phrase Hunter Game",
-      "description": "A fun interactive phrase guessing game!",
-      "technologies": ["HTML", "CSS", "JavaScript", "JS OOP"],
+      "description": "A fun interactive phrase guessing game! The phrases to guess are related to the paradigm of programming deployed in this project, Object-Oriented JavaScript. The game will test your knowledge of principles and terms related to object oriented programming in JavaScript. Programmer Beware!",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Object-Oriented JS",
+        "Web API's"
+      ],
       "live_link": "https://samuel-piedra58.github.io/phrase_hunter_game_oop/",
       "github_link": "https://github.com/Samuel-Piedra58/phrase_hunter_game_oop",
       "image_urls": [
@@ -69,7 +76,7 @@
     {
       "id": 4,
       "project_name": "Startup Company Employee Directory",
-      "description": "A mock employee directory for a fake company. This page uses AJAX and Promises to generate employees who work at said \"Startup Company\"",
+      "description": "A mock employee directory for a fake company. This project implemented AJAX, modern JavaScript syntax and Web Api's to create asynchronous requests to a public REST API. The random user data was generated using randomuser.me's (https://randomuser.me) and their public api.",
       "technologies": [
         "HTML",
         "CSS",
@@ -77,6 +84,7 @@
         "AJAX",
         "Fetch API",
         "XMLHttpRequest",
+        "Web API's",
         "Promises",
         "REST API's"
       ],
