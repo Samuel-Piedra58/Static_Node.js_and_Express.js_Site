@@ -26,15 +26,13 @@ app.use(function(req, res, next) {
 
 // ERROR HANDLER MIDDLEWARE //////////////////////////////
 app.use(function(err, req, res, next) {
-  // log error header to the console
-  console.log("****************  ERROR  ****************");
-
   // Check if statusCode was set in 404 or if it can be set to 500
   if (err.statusCode === undefined) {
     err.statusCode = 500;
   }
 
   // log error message to console
+  console.log("****************  ERROR  ****************");
   console.error(`${err.statusCode}: ${err.message}`);
   console.error(err.stack);
 
@@ -50,11 +48,3 @@ app.use(function(err, req, res, next) {
 app.listen(3000, function() {
   console.log("Starting server on localhost:3000");
 });
-
-// TODOS
-
-// -- Improve Git hub repos readme, lol they suck
-// -- edit about me page
-// -- edit side bar intro
-// -- create feature to add style and interactivity when a user hover's over the project tile
-// -- improve project descriptions
