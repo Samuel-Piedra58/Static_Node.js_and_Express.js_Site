@@ -3,7 +3,7 @@
     {
       "id": 0,
       "project_name": "Random Quote Generator",
-      "description": "The random quote generator displays a random quote on the click of a button or when 20 seconds have passed. This project was built on basics of JavaScript and utilized Web API's such as setTimout() and the DOM.",
+      "description": "The project is a Random Quote Generator. Each time the \"Show another quote\" button is clicked a new random quote will render to the page and the background color will change. The random quote generator will display a random quote on button click or when 20 seconds have passed. This project was built with vanilla JavaScript and utilized Web API's such as setTimout() and the DOM. Enjoy!",
       "technologies": ["HTML", "CSS", "JavaScript", "Web API's"],
       "live_link": "https://samuel-piedra58.github.io/random_quote_generator/",
       "github_link": "https://github.com/Samuel-Piedra58/random_quote_generator",
@@ -76,7 +76,7 @@
     {
       "id": 4,
       "project_name": "Startup Company Employee Directory",
-      "description": "A mock employee directory for a fake company. This project implemented AJAX, modern JavaScript syntax and Web Api's to create asynchronous requests to a public REST API. The random user data was generated using randomuser.me's (https://randomuser.me) and their public api.",
+      "description": "A mock employee directory for a fake company. This project implemented AJAX, modern JavaScript syntax and Web Api's to create asynchronous requests to a public REST API. The random user data was generated using randomuser.me (https://randomuser.me) and their public api.",
       "technologies": [
         "HTML",
         "CSS",
