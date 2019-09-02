@@ -155,7 +155,7 @@ a:hover {
   line-height: 25px;
 }
 
-/* about page CSS alterations */
+/* custom CSS alterations */
 
 a.random-project {
   color: black;
@@ -172,7 +172,7 @@ a.random-project:hover {
   font-weight: 700;
 }
 
-.inkedin:hover {
+.linkedin:hover {
   color: white;
   background-color: #0077b5;
 }
@@ -189,7 +189,6 @@ a.random-project:hover {
   background-color: #24292e;
 }
 
-/* project page CSS alterations */
 .tech {
   list-style: none;
   background-color: rgb(255, 230, 0);
